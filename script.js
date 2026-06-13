@@ -117,16 +117,17 @@ const projects = [
     demo: "#",
     badge: "Projet récent",
     gradient: "linear-gradient(135deg, #0d2137 0%, #1a1045 100%)",
-    emoji: "📋",
+    image:
+      "https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/7d5161e5a653ea3d75c7f709459f7fe783f646ec",
   },
 ];
 
 /** Languages */
 const languages = [
-  { name: "Arabe", flag: "🇸🇦", level: "Natif", dots: 5 },
-  { name: "Anglais", flag: "🇬🇧", level: "Courant", dots: 4 },
-  { name: "Français", flag: "🇫🇷", level: "Débutant", dots: 2 },
-  { name: "Allemand", flag: "🇩🇪", level: "Débutant", dots: 2 },
+  { name: "Arabe", flag: "assets/flags/ar.png", level: "Natif", dots: 5 },
+  { name: "Anglais", flag: "assets/flags/usa.png", level: "Courant", dots: 4 },
+  { name: "Français", flag: "assets/flags/fr.png", level: "Débutant", dots: 2 },
+  { name: "Allemand", flag: "assets/flags/de.png", level: "Débutant", dots: 2 },
 ];
 
 /** Contact info */
@@ -338,7 +339,7 @@ function renderProjects() {
         `<article class="project-card" style="transition-delay:${(i % 3) * 0.1}s">
       <div class="project-image">
         <div class="project-image-inner" style="background:${proj.gradient}">
-          <div class="project-placeholder">${proj.emoji}</div>
+            <img src="${proj.image}" alt="${proj.title}" style="width:100%;height:100%;object-fit:cover;">
         </div>
         <span class="project-badge">${proj.badge}</span>
       </div>
@@ -369,7 +370,7 @@ function renderLanguages() {
     .map(
       (lang, i) =>
         `<div class="language-card" style="transition-delay:${i * 0.1}s">
-      <span class="lang-flag">${lang.flag}</span>
+      <img src="${lang.flag}" alt="${lang.name}" class="lang-flag">
       <div class="lang-name">${lang.name}</div>
       <div class="lang-level">${lang.level}</div>
       <div class="lang-dots">
