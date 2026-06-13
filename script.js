@@ -11,185 +11,122 @@
 /** Hero section meta */
 const hero = {
   name: "Mohammed Addi",
-  role: "Full Stack Developer",
+  role: "Développeur Full Stack",
   description:
-    "I build scalable web applications from pixel-perfect frontends to robust cloud architectures. Turning complex problems into elegant, high-performance digital products.",
+    "Je conçois des applications web fonctionnelles et sur mesure — des backends robustes aux interfaces modernes. Je transforme vos besoins en solutions digitales concrètes.",
   stats: [
-    { number: "5+", label: "Years exp." },
-    { number: "40+", label: "Projects done" },
-    { number: "15+", label: "Happy clients" },
+    { number: "3", label: "Projets réalisés" },
+    { number: "2", label: "Ans d'apprentissage" },
+    { number: "100%", label: "Disponible" },
   ],
 };
 
 /** Navigation links */
 const navItems = [
-  { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
-  { label: "Experience", href: "#experience" },
-  { label: "Projects", href: "#projects" },
-  { label: "Languages", href: "#languages" },
+  { label: "À propos", href: "#about" },
+  { label: "Compétences", href: "#skills" },
+  { label: "Parcours", href: "#experience" },
+  { label: "Projets", href: "#projects" },
+  { label: "Langues", href: "#languages" },
   { label: "Contact", href: "#contact" },
 ];
 
 /** About section */
 const about = {
   paragraphs: [
-    "I'm a full-stack developer with 5+ years of experience building production-grade web applications. I thrive at the intersection of clean architecture and beautiful user interfaces—writing code that is as maintainable as it is performant.",
-    "I've worked with early-stage startups, scale-ups, and enterprise clients across e-commerce, fintech, and SaaS—shipping products that millions of people use every day.",
-    "When I'm not coding, I'm contributing to open-source, reading about distributed systems, or experimenting with generative design tools.",
+    "Je suis un développeur web full stack autodidacte basé au Maroc, passionné par la création d'applications web qui résolvent de vrais problèmes métier.",
+    "Mon stack principal : PHP, MySQL et JavaScript pour le backend, HTML/CSS avec Bootstrap et Tailwind pour le frontend. J'ai réalisé des systèmes de gestion complets — de la base de données à l'interface utilisateur.",
+    "Actuellement disponible pour des missions freelance et des opportunités à distance. Je livre du code propre et fonctionnel, dans les délais.",
   ],
   details: [
     {
-      key: "Status",
-      value: '<span class="status-dot"></span> Available for work',
+      key: "Statut",
+      value: '<span class="status-dot"></span> Disponible',
     },
-    { key: "Location", value: "Remote / Worldwide" },
-    { key: "Focus", value: "Full Stack & Architecture" },
-    { key: "Email", value: "flextoon.yt2005@gmail.com" },
-    { key: "Degree", value: "BSc Computer Science" },
+    { key: "Localisation", value: "Khémisset, Maroc · Remote" },
+    { key: "Focus", value: "Applications web & systèmes de gestion" },
+    { key: "Email", value: "mohammed.addi.dev@gmail.com" },
+    { key: "Formation", value: "Développement Web — 2023/2025" },
   ],
 };
 
 /** Skills — categorized */
 const skills = {
   frontend: [
-    { name: "HTML5", icon: "fa-brands fa-html5", level: 95 },
-    { name: "CSS3", icon: "fa-brands fa-css3-alt", level: 92 },
-    { name: "JavaScript", icon: "fa-brands fa-js", level: 95 },
-    { name: "React", icon: "fa-brands fa-react", level: 95 },
-    { name: "Vue.js", icon: "fa-brands fa-vuejs", level: 95 },
+    { name: "HTML5", icon: "fa-brands fa-html5", level: 80 },
+    { name: "CSS3", icon: "fa-brands fa-css3-alt", level: 75 },
+    { name: "JavaScript", icon: "fa-brands fa-js", level: 65 },
+    { name: "Bootstrap", icon: "fa-brands fa-bootstrap", level: 75 },
+    { name: "Tailwind CSS", icon: "fa-solid fa-wind", level: 70 },
   ],
   backend: [
-    { name: "PHP", icon: "fa-brands fa-php", level: 92 },
-    { name: "Laravel", icon: "fa-brands fa-laravel", level: 92 },
+    { name: "PHP", icon: "fa-brands fa-php", level: 70 },
+    { name: "Laravel", icon: "fa-brands fa-laravel", level: 60 },
+    { name: "Python", icon: "fa-brands fa-python", level: 50 },
   ],
   database: [
-    { name: "MongoDB", icon: "fa-solid fa-leaf", level: 82 },
-    { name: "MySQL", icon: "fa-solid fa-database", level: 85 },
+    { name: "MySQL", icon: "fa-solid fa-database", level: 75 },
+    { name: "MongoDB", icon: "fa-solid fa-leaf", level: 50 },
   ],
   tools: [
-    { name: "Git / GitHub", icon: "fa-brands fa-git-alt", level: 95 },
-    { name: "Figma", icon: "fa-brands fa-figma", level: 75 },
-    { name: "Linux", icon: "fa-brands fa-linux", level: 85 },
+    { name: "Git / GitHub", icon: "fa-brands fa-git-alt", level: 70 },
+    { name: "Figma", icon: "fa-brands fa-figma", level: 55 },
+    { name: "Linux", icon: "fa-brands fa-linux", level: 55 },
   ],
 };
 
 /** Work experience */
 const experiences = [
   {
-    role: "Senior Full Stack Engineer",
-    company: "TechNova Labs",
+    role: "Développeur Web Freelance",
+    company: "Indépendant",
     companyIcon: "🚀",
-    duration: "Jan 2023 – Present",
+    duration: "2025 — Présent",
     description:
-      "Led the architecture and development of a multi-tenant SaaS platform serving 50k+ users. Reduced API response times by 65% through strategic caching and query optimization. Mentored a team of 4 junior engineers.",
-    tech: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "AWS", "Redis"],
+      "Développement d'applications web sur mesure pour des clients. Spécialisé dans les systèmes de gestion en PHP/MySQL et les interfaces modernes avec JavaScript.",
+    tech: ["PHP", "MySQL", "JavaScript", "HTML", "CSS", "Bootstrap"],
   },
   {
-    role: "Full Stack Developer",
-    company: "Pixel & Code Agency",
-    companyIcon: "🎨",
-    duration: "Mar 2021 – Dec 2022",
+    role: "Projet de Fin d'Études",
+    company: "Formation Développement Web",
+    companyIcon: "🎓",
+    duration: "2026",
     description:
-      "Delivered 20+ client projects ranging from e-commerce platforms to internal dashboards. Built a real-time inventory system processing 10k+ events/minute using WebSockets and event-driven architecture.",
-    tech: ["React", "Vue.js", "Python", "FastAPI", "MongoDB", "Docker"],
+      "Conception et développement d'un système complet de gestion des réclamations avec 4 rôles utilisateurs (Admin, Superviseur, Agent, Client), suivi du cycle de vie des tickets et système de commentaires.",
+    tech: ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
   },
   {
-    role: "Frontend Developer",
-    company: "StartupX",
+    role: "Projet Municipal",
+    company: "Commune de Khémisset",
     companyIcon: "⚡",
-    duration: "Jun 2019 – Feb 2021",
+    duration: "2025",
     description:
-      "Built the frontend of a fintech product from 0 to 1. Implemented complex data visualization dashboards, real-time price feeds, and a design system adopted across 3 products.",
-    tech: ["React", "D3.js", "TypeScript", "GraphQL", "Storybook"],
-  },
-  {
-    role: "Junior Web Developer",
-    company: "Digital Wave Studio",
-    companyIcon: "🌊",
-    duration: "Sep 2018 – May 2019",
-    description:
-      "Developed marketing websites and landing pages for SMB clients. Gained strong foundations in performance optimization, accessibility, and cross-browser compatibility.",
-    tech: ["HTML", "CSS", "JavaScript", "WordPress", "PHP"],
+      "Développement d'un système de gestion des réparations de véhicules pour une collectivité locale. Remplacement des fichiers Excel par une solution web centralisée avec suivi des réparations et historique de maintenance.",
+    tech: ["Laravel", "MySQL", "JavaScript", "HTML", "CSS"],
   },
 ];
 
 /** Projects */
 const projects = [
   {
-    title: "FlowBoard — SaaS PM Tool",
+    title: "Système de Gestion des Réclamations",
     description:
-      "A full-featured project management SaaS with real-time collaboration, Kanban boards, sprint tracking, and analytics dashboard. Supports teams up to 500 members.",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "Redis", "Socket.io"],
-    github: "https://github.com",
-    demo: "https://example.com",
-    badge: "Featured",
+      "Plateforme helpdesk complète avec 4 rôles (Admin, Superviseur, Agent, Client), gestion du cycle de vie des tickets, affectation aux agents, système de commentaires et suivi des statuts.",
+    tech: ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
+    github: "https://github.com/addi-dev/complaint-manager",
+    demo: "#",
+    badge: "Projet récent",
     gradient: "linear-gradient(135deg, #0d2137 0%, #1a1045 100%)",
     emoji: "📋",
-  },
-  {
-    title: "ShopStream — E-Commerce",
-    description:
-      "Headless e-commerce platform with AI-powered recommendations, real-time inventory sync, and a 98% Lighthouse score. Handles 50k+ daily transactions.",
-    tech: ["React", "Node.js", "MongoDB", "Stripe", "Algolia"],
-    github: "https://github.com",
-    demo: "https://example.com",
-    badge: "Production",
-    gradient: "linear-gradient(135deg, #0d1f37 0%, #103426 100%)",
-    emoji: "🛒",
-  },
-  {
-    title: "DataLens — Analytics API",
-    description:
-      "High-throughput analytics ingestion API processing 1M+ events/day. Includes auto-aggregation pipelines, custom query DSL, and interactive chart builder.",
-    tech: ["Python", "FastAPI", "PostgreSQL", "ClickHouse", "Docker"],
-    github: "https://github.com",
-    demo: "https://example.com",
-    badge: "Open Source",
-    gradient: "linear-gradient(135deg, #1a0d37 0%, #371030 100%)",
-    emoji: "📊",
-  },
-  {
-    title: "DevPing — Dev Monitoring",
-    description:
-      "Uptime monitoring and alerting platform with incident management, status pages, and on-call scheduling. Sub-second latency global checks from 12 regions.",
-    tech: ["Go", "React", "TimescaleDB", "Redis", "AWS Lambda"],
-    github: "https://github.com",
-    demo: "https://example.com",
-    badge: "Side Project",
-    gradient: "linear-gradient(135deg, #0d1a37 0%, #142630 100%)",
-    emoji: "🔔",
-  },
-  {
-    title: "ArtGen — AI Creative Studio",
-    description:
-      "Web app for AI-assisted creative workflows—generate, edit, and export design assets at scale. Integrates with multiple AI image models via a unified API.",
-    tech: ["Vue.js", "Node.js", "Python", "Replicate API", "S3"],
-    github: "https://github.com",
-    demo: "https://example.com",
-    badge: "AI",
-    gradient: "linear-gradient(135deg, #1a370d 0%, #372b10 100%)",
-    emoji: "🎨",
-  },
-  {
-    title: "ChatBridge — Messaging SDK",
-    description:
-      "Embeddable real-time messaging SDK with thread support, reactions, file uploads, and end-to-end encryption. Drop-in widget or full headless API.",
-    tech: ["TypeScript", "WebSockets", "Node.js", "Redis Pub/Sub"],
-    github: "https://github.com",
-    demo: "https://example.com",
-    badge: "Open Source",
-    gradient: "linear-gradient(135deg, #37100d 0%, #371a10 100%)",
-    emoji: "💬",
   },
 ];
 
 /** Languages */
 const languages = [
-  { name: "English", flag: "🇬🇧", level: "Native", dots: 5 },
-  { name: "Arabic", flag: "🇸🇦", level: "Native", dots: 5 },
-  { name: "French", flag: "🇫🇷", level: "Professional", dots: 4 },
-  { name: "German", flag: "🇩🇪", level: "Intermediate", dots: 3 },
+  { name: "Arabe", flag: "🇸🇦", level: "Natif", dots: 5 },
+  { name: "Anglais", flag: "🇬🇧", level: "Courant", dots: 4 },
+  { name: "Français", flag: "🇫🇷", level: "Débutant", dots: 2 },
+  { name: "Allemand", flag: "🇩🇪", level: "Débutant", dots: 2 },
 ];
 
 /** Contact info */
@@ -197,8 +134,8 @@ const contactInfo = [
   {
     icon: "fa-solid fa-envelope",
     label: "Email",
-    value: "flextoon.yt2005@gmail.com",
-    href: "mailto:flextoon.yt2005@gmail.com",
+    value: "mohammed.addi.dev@gmail.com",
+    href: "mailto:mohammed.addi.dev@gmail.com",
   },
   {
     icon: "fa-brands fa-github",
@@ -469,7 +406,7 @@ function renderContact() {
 function renderFooter() {
   const year = new Date().getFullYear();
   document.getElementById("footerCopy").textContent =
-    `© ${year} Mohammed Addi — Built with HTML, CSS & Vanilla JS`;
+    `© ${year} Mohammed Addi — Développé avec HTML, CSS & JavaScript`;
 
   document.getElementById("footerSocials").innerHTML = socials
     .map(
@@ -626,7 +563,7 @@ function initContactForm() {
     e.preventDefault();
     const btn = form.querySelector(".btn-primary");
     btn.disabled = true;
-    btn.querySelector("span").textContent = "Sending...";
+    btn.querySelector("span").textContent = "Envoi en cours...";
 
     try {
       const response = await fetch(form.action, {
@@ -636,24 +573,24 @@ function initContactForm() {
       });
 
       if (response.ok) {
-        status.textContent = "✓ Message sent! I'll get back to you within 24h.";
+        status.textContent = "✓ Message envoyé ! Je vous réponds sous 24h.";
         status.className = "form-status success";
         form.reset();
       } else {
         const data = await response.json();
         const msg =
           data?.errors?.map((e) => e.message).join(", ") ||
-          "Something went wrong.";
+          "✗ Une erreur est survenue.";
         status.textContent = "✗ " + msg;
         status.className = "form-status error";
       }
     } catch {
-      status.textContent = "✗ Network error — please try again.";
+      status.textContent = "✗ Erreur réseau — veuillez réessayer.";
       status.className = "form-status error";
     }
 
     btn.disabled = false;
-    btn.querySelector("span").textContent = "Send Message";
+    btn.querySelector("span").textContent = "Envoyer";
 
     setTimeout(() => {
       status.textContent = "";
@@ -690,9 +627,13 @@ function initParallax() {
 /** Back to top button */
 function initBackToTop() {
   const btn = document.getElementById("backToTop");
-  window.addEventListener("scroll", () => {
-    btn.classList.toggle("visible", window.scrollY > 400);
-  }, { passive: true });
+  window.addEventListener(
+    "scroll",
+    () => {
+      btn.classList.toggle("visible", window.scrollY > 400);
+    },
+    { passive: true },
+  );
   btn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
@@ -721,5 +662,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initContactForm();
   initSmoothScroll();
   initParallax();
-  initBackToTop()
+  initBackToTop();
 });
