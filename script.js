@@ -117,8 +117,18 @@ const projects = [
     demo: "#",
     badge: "Projet récent",
     gradient: "linear-gradient(135deg, #0d2137 0%, #1a1045 100%)",
-    image:
-      "https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/7d5161e5a653ea3d75c7f709459f7fe783f646ec",
+    image: "assets/thumbnails/helpdesk.png"
+  },
+  {
+    title: "Système de Gestion des Stages",
+    description:
+      "Plateforme de gestion des stages pour une grande entreprise, avec rôles Administrateur, Gestionnaire RH et Encadrant, suivi complet du cycle de stage (établissements, stagiaires, stages, livrables), génération de documents PDF (convocations, attestations, sujets de stage) et export de listes.",
+    tech: ["Laravel"],
+    github: "#",
+    demo: "#",
+    badge: "Projet récent",
+    gradient: "linear-gradient(135deg, #0d2137 0%, #1a1045 100%)",
+    image: "assets/thumbnails/internly.png",
   },
 ];
 
@@ -256,17 +266,17 @@ function renderSkills() {
       ([category, items]) =>
         `<div class="skills-panel ${category === "frontend" ? "active" : ""}" data-panel="${category}">
       ${items
-        .map(
-          (skill) =>
-            `<div class="skill-chip">
+          .map(
+            (skill) =>
+              `<div class="skill-chip">
           <span class="skill-icon"><i class="${skill.icon}"></i></span>
           <span class="skill-name">${skill.name}</span>
           <div class="skill-bar-wrap">
             <div class="skill-bar" data-level="${skill.level}"></div>
           </div>
         </div>`,
-        )
-        .join("")}
+          )
+          .join("")}
     </div>`,
     )
     .join("");
